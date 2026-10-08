@@ -1,65 +1,115 @@
+# Hi, I'm Abhishek Gupta 👋
 
-<p align="center">
-  <!-- Typing SVG -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=AI+Engineer;AI+Agents+%7C+Python+%2B+LLMs;No-Code+Automations;Always+learning+new+things&font=Fira%20Code&center=true&width=480&height=45&color=0A66C2&vCenter=true&pause=1000&size=22" />
-  </a>
-</p>
+### AI Engineer building production AI agents and AI-powered products.
 
-<!-- Social icons -->
-<p align="center">
-  <a href="https://linkedin.com/in/iautomates"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://twitter.com/Fast_Abhi"><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/AixJgnm.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="mailto:abhishekguptacode@gmail.com"><img width="32px" alt="Email" title="Email" src="https://i.imgur.com/LmPdQWc.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-</p>
+I build and ship AI systems focused on **agents, RAG, LLM evaluation, and reliable AI workflows**.
 
-<br/>
+My work sits at the intersection of AI engineering and product engineering — turning product requirements into working systems with tool calling, retrieval, memory, guardrails, evaluation, and observability.
 
-<!-- GitHub Stats & Streak -->
-<p align="center">
-  <a href="https://github.com/1abhi6">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=1abhi6&show_icons=true&count_private=true&theme=react&bg_color=1F222E&title_color=0A66C2&icon_color=F8D866&hide_border=true"/>
-  </a>
-  <a href="https://git.io/streak-stats">
-    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=1abhi6&theme=react&background=1F222E&ring=0A66C2&fire=0A66C2&currStreakLabel=F8D866&hide_border=true"/>
-  </a>
-</p>
+---
 
-<br/>
+## What I Work On
 
-<details open>
-  <summary><h2>📘 Featured Projects</h2></summary>
-  <p align="left">
-    <a href="https://github.com/1abhi6/Geometrify"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=1abhi6&repo=Geometrify&theme=react&bg_color=1F222E&title_color=0A66C2&hide_border=true&icon_color=F8D866&show_icons=false" alt="Geometrify"></a>
-    <a href="https://github.com/1abhi6/analyse-whatsapp-chat"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=1abhi6&repo=analyse-whatsapp-chat&theme=react&bg_color=1F222E&title_color=0A66C2&hide_border=true&icon_color=F8D866&show_icons=false" alt="WhatsApp Chat Analyser"></a>
-    <a href="https://github.com/1abhi6/IPL_API"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=1abhi6&repo=Streamlit-Indian-Startup-Funding&theme=react&bg_color=1F222E&title_color=0A66C2&hide_border=true&icon_color=F8D866&show_icons=false" alt="Indian Startup Funding Dashboard"></a>
-  </p>
-  <a href="https://github.com/1abhi6?tab=repositories&sort=stargazers"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/></a>
-</details>
+- 🤖 **AI Agents** — agent orchestration, tool calling, multi-agent workflows
+- 🧠 **RAG Systems** — retrieval, embeddings, reranking, contextual search
+- 📊 **LLM Evaluation** — multi-turn evals, RAG evaluation, failure analysis
+- 🔍 **Observability** — tracing, latency, cost and model behavior
+- 🛡️ **AI Reliability** — guardrails, safe escalation and failure handling
+- ⚡ **AI Products** — building and shipping user-facing AI applications
 
-<details>
-  <summary><h2>🛠️ My Tech Stack</h2></summary>
+---
 
-  <h3>👨‍💻 Languages & Tools</h3>
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-    <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-    <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-    <img alt="HTML" src="https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-    <img alt="CSS" src="https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-    <img alt="SQL" src="https://img.shields.io/badge/-SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-    <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-    <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  </p>
-</details>
+## Tech Stack
 
-<br/>
+### AI & LLMs
+`LangGraph` `Vercel AI SDK` `LLMs` `AI Agents` `RAG` `LLM Evaluation`  
+`Tool Calling` `Multi-Agent Systems` `Guardrails` `Langfuse`
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=1abhi6&style=flat-square&color=0A66C2" alt="Profile Views"/>
-</p>
+### Backend
+`Python` `FastAPI` `TypeScript` `PostgreSQL` `Convex`
+
+### Frontend
+`Next.js` `React` `Chrome Extensions`
+
+### Cloud & Infrastructure
+`Azure` `Azure OpenAI` `Vercel` `Docker`
+
+---
+
+## Selected Projects
+
+### 🧠 TabCake
+
+An AI-powered browser memory layer that helps users retrieve and interact with information from their browsing history.
+
+**Focus:** RAG · semantic search · retrieval · embeddings · AI memory
+
+→ [tabcake.com](https://tabcake.com)
+
+---
+
+### 🛡️ Slop Signal
+
+A Chrome extension that detects and labels AI-generated content on social platforms.
+
+**Focus:** AI classification · Chrome Extensions · TypeScript · product engineering
+
+→ [slopsignal.dev](https://slopsignal.dev)
+
+---
+
+### 🤖 Retriever
+
+An AI follow-up agent for veterinary clinics designed to handle post-appointment conversations and actions.
+
+Built with agent orchestration, tool calling, safety evaluation, automated testing, tracing, and performance optimization.
+
+**Focus:** LangGraph · AI agents · evaluation · guardrails · Langfuse · FastAPI
+
+---
+
+## Engineering Approach
+
+I care about more than making an LLM respond.
+
+I try to answer:
+
+- Does the system actually solve the product problem?
+- What happens when the model is wrong?
+- How do we evaluate it?
+- How much does each interaction cost?
+- Where is the latency coming from?
+- Can we observe and improve the system over time?
+
+For me, good AI engineering is **shipping useful systems and having evidence that they work.**
+
+---
+
+## Background
+
+Before moving into AI engineering, I founded and ran a digital agency where I worked with **20+ businesses** and managed a small team.
+
+That experience gave me a strong product mindset alongside my engineering work — understanding users, validating ideas, shipping quickly, and thinking about business outcomes.
+
+---
+
+## Currently Learning & Exploring
+
+- Advanced AI agent architectures
+- LLM evaluation and reliability
+- RAG optimization
+- AI memory and context management
+- System design for AI applications
+- Production AI infrastructure
+
+---
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abhishekbuild-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abhishekbuild)
+
+[LinkedIn](https://linkedin.com/in/abhishekbuild) · [Website](https://tabcake.com)
+
+---
+
+> Building AI systems that are useful, measurable, and reliable.
