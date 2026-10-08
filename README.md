@@ -52,6 +52,7 @@ Before moving into AI engineering I founded and ran Unarrow Digital, an agency t
 ![Claude](https://img.shields.io/badge/Anthropic%20Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat-square)
 ![Pipecat](https://img.shields.io/badge/Pipecat-333333?style=flat-square)
+
 **Evals & observability**
 
 ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square)
