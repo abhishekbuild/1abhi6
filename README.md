@@ -1,115 +1,100 @@
-# Hi, I'm Abhishek Gupta 👋
+# Hey, I'm Abhishek 👋
 
-### AI Engineer building production AI agents and AI-powered products.
+I'm an **AI Engineer** working on AI agents, RAG systems, and AI products.
 
-I build and ship AI systems focused on **agents, RAG, LLM evaluation, and reliable AI workflows**.
+I like building things end-to-end — from figuring out the product problem to designing the agent workflow, building the backend, evaluating the system, and putting it in front of users.
 
-My work sits at the intersection of AI engineering and product engineering — turning product requirements into working systems with tool calling, retrieval, memory, guardrails, evaluation, and observability.
+Currently, most of my work is around:
 
----
+- AI agents and agent orchestration
+- RAG and retrieval systems
+- LLM evaluation and observability
+- Tool calling, memory and multi-agent workflows
+- Python / FastAPI / LangGraph
+- TypeScript / Next.js / Vercel AI SDK
 
-## What I Work On
+## Things I've built
 
-- 🤖 **AI Agents** — agent orchestration, tool calling, multi-agent workflows
-- 🧠 **RAG Systems** — retrieval, embeddings, reranking, contextual search
-- 📊 **LLM Evaluation** — multi-turn evals, RAG evaluation, failure analysis
-- 🔍 **Observability** — tracing, latency, cost and model behavior
-- 🛡️ **AI Reliability** — guardrails, safe escalation and failure handling
-- ⚡ **AI Products** — building and shipping user-facing AI applications
+### [TabCake](https://tabcake.com)
 
----
+An AI memory layer for your browser.
 
-## Tech Stack
+It lets you search and interact with things you've previously seen on the web using semantic retrieval and RAG.
 
-### AI & LLMs
-`LangGraph` `Vercel AI SDK` `LLMs` `AI Agents` `RAG` `LLM Evaluation`  
-`Tool Calling` `Multi-Agent Systems` `Guardrails` `Langfuse`
-
-### Backend
-`Python` `FastAPI` `TypeScript` `PostgreSQL` `Convex`
-
-### Frontend
-`Next.js` `React` `Chrome Extensions`
-
-### Cloud & Infrastructure
-`Azure` `Azure OpenAI` `Vercel` `Docker`
+**Stack:** TypeScript · Next.js · RAG · Embeddings · Vector Search
 
 ---
 
-## Selected Projects
+### [Slop Signal](https://slopsignal.dev)
 
-### 🧠 TabCake
+A Chrome extension that detects AI-generated content on LinkedIn and X.
 
-An AI-powered browser memory layer that helps users retrieve and interact with information from their browsing history.
+It currently has **36 users and has labeled 7,500+ posts**.
 
-**Focus:** RAG · semantic search · retrieval · embeddings · AI memory
-
-→ [tabcake.com](https://tabcake.com)
+**Stack:** TypeScript · Chrome Extensions · AI Classification · Convex
 
 ---
 
-### 🛡️ Slop Signal
+### Retriever
 
-A Chrome extension that detects and labels AI-generated content on social platforms.
+An AI follow-up agent for veterinary clinics.
 
-**Focus:** AI classification · Chrome Extensions · TypeScript · product engineering
+I built it from **PRD → POC → QA**, including the agent workflow, tools, safety evaluation, automated tests and observability.
 
-→ [slopsignal.dev](https://slopsignal.dev)
+Some of the engineering work involved reducing p95 response latency by **52%** and cost per reply by **27%** in pre-production testing.
 
----
+**Stack:** Python · LangGraph · FastAPI · Vercel AI SDK · Claude · Langfuse
 
-### 🤖 Retriever
+## What I care about
 
-An AI follow-up agent for veterinary clinics designed to handle post-appointment conversations and actions.
+I don't think building an LLM wrapper is particularly interesting.
 
-Built with agent orchestration, tool calling, safety evaluation, automated testing, tracing, and performance optimization.
+The interesting part is everything around it:
 
-**Focus:** LangGraph · AI agents · evaluation · guardrails · Langfuse · FastAPI
+**How do you evaluate it?  
+What happens when it fails?  
+How much does it cost?  
+Can you understand why it made a decision?  
+Can you actually put it in the hands of users?**
 
----
+That's the kind of AI engineering I enjoy.
 
-## Engineering Approach
+## Tech
 
-I care about more than making an LLM respond.
+**Languages**
 
-I try to answer:
+Python · TypeScript · SQL
 
-- Does the system actually solve the product problem?
-- What happens when the model is wrong?
-- How do we evaluate it?
-- How much does each interaction cost?
-- Where is the latency coming from?
-- Can we observe and improve the system over time?
+**AI**
 
-For me, good AI engineering is **shipping useful systems and having evidence that they work.**
+LangGraph · Vercel AI SDK · RAG · LLMs · AI Agents · Tool Calling · Multi-Agent Systems · LLM Evaluation · Guardrails
 
----
+**Backend**
 
-## Background
+FastAPI · PostgreSQL · Convex
 
-Before moving into AI engineering, I founded and ran a digital agency where I worked with **20+ businesses** and managed a small team.
+**Frontend**
 
-That experience gave me a strong product mindset alongside my engineering work — understanding users, validating ideas, shipping quickly, and thinking about business outcomes.
+Next.js · React · Chrome Extensions
 
----
+**Infrastructure**
 
-## Currently Learning & Exploring
+Azure · Vercel · Docker · Langfuse
 
-- Advanced AI agent architectures
-- LLM evaluation and reliability
-- RAG optimization
-- AI memory and context management
-- System design for AI applications
-- Production AI infrastructure
+## A bit more about me
 
----
+Before working full-time in AI, I ran a small digital agency and worked with 20+ businesses.
 
-## Connect
+That experience still influences how I build software. I care about the product and the user just as much as the implementation.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-abhishekbuild-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abhishekbuild)
+I'm currently based in Hyderabad, India.
 
-[LinkedIn](https://linkedin.com/in/abhishekbuild) · [Website](https://tabcake.com)
+## GitHub
 
----
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&hide_title=true&count_private=true)
 
-> Building AI systems that are useful, measurable, and reliable.
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&langs_count=8)
+
+## Find me
+
+[LinkedIn](https://linkedin.com/in/abhishekbuild) · [TabCake](https://tabcake.com) · [Slop Signal](https://slopsignal.dev)
