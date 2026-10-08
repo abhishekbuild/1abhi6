@@ -1,100 +1,84 @@
-# Hey, I'm Abhishek 👋
+## Hi, I'm Abhishek
 
-I'm an **AI Engineer** working on AI agents, RAG systems, and AI products.
+AI Engineer at a veterinary-tech startup building AI-powered practice management software for clinics. I build production AI agents, and the parts that make them dependable: evaluation, tracing and guardrails.
 
-I like building things end-to-end — from figuring out the product problem to designing the agent workflow, building the backend, evaluating the system, and putting it in front of users.
+Based in Hyderabad, India.
 
-Currently, most of my work is around:
-
-- AI agents and agent orchestration
-- RAG and retrieval systems
-- LLM evaluation and observability
-- Tool calling, memory and multi-agent workflows
-- Python / FastAPI / LangGraph
-- TypeScript / Next.js / Vercel AI SDK
-
-## Things I've built
-
-### [TabCake](https://tabcake.com)
-
-An AI memory layer for your browser.
-
-It lets you search and interact with things you've previously seen on the web using semantic retrieval and RAG.
-
-**Stack:** TypeScript · Next.js · RAG · Embeddings · Vector Search
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abhishekbuild-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishekbuild)
+![Profile views](https://komarev.com/ghpvc/?username=abhishekbuild&base=2143&label=Profile%20views&color=555555&style=flat)
 
 ---
 
-### [Slop Signal](https://slopsignal.dev)
+### Current work
 
-A Chrome extension that detects AI-generated content on LinkedIn and X.
+**Clinical co-pilot for vets** · *live*
+A chat assistant vets use during their day. I built the orchestrator and the sub-agents for patient-profile summaries, generative UI, inventory, tasks and appointments, along with voice input using Pipecat. In launch week, vets asked it 446 questions and used voice input 150 times.
+`LangGraph` `FastAPI` `Azure App Service`
 
-It currently has **36 users and has labeled 7,500+ posts**.
+**Post-visit follow-up agent** · *in QA, launching to clinics November 2026*
+An agent that follows up with pet owners after a visit. It proposes bookings and reschedules for staff to approve, escalates urgent cases, and hands anything unclear to a person. I built it on my own, from PRD to QA: 13 agent tools, around 310 automated tests, and every model call traced in Langfuse.
+- 32-scenario multi-turn eval suite; all 12 safety scenarios pass, 92% of samples overall
+- Correctly attributes messages in multi-pet households 36/36 times, versus 10/36 for name matching
+- In pre-production testing: p95 reply latency down 52%, cost per reply down 27%, 94–96% prompt-cache hit rate
 
-**Stack:** TypeScript · Chrome Extensions · AI Classification · Convex
+`Claude` `Vercel AI SDK` `Convex` `Langfuse`
 
----
+### Side projects
 
-### Retriever
+**[Slop Signal](https://slopsignal.dev)** · *live*
+A Chrome extension that flags AI-generated posts in your feed. It only checks posts you actually scroll to, caches results for seven days and never stores post text, which keeps each check at roughly $0.00006. 36 users and 7,500+ posts labeled so far.
+`TypeScript` `WXT` `Manifest V3`
 
-An AI follow-up agent for veterinary clinics.
+**[TabCake](https://tabcake.com)** · *launching soon*
+A product built on an end-to-end RAG pipeline: classification, chunking, embeddings, retrieval and reranking, with evals and versioned prompts.
+`Next.js` `TypeScript` `RAG`
 
-I built it from **PRD → POC → QA**, including the agent workflow, tools, safety evaluation, automated tests and observability.
+### Background
 
-Some of the engineering work involved reducing p95 response latency by **52%** and cost per reply by **27%** in pre-production testing.
+Before moving into AI engineering I founded and ran Unarrow Digital, an agency that served 20+ clients with a team of eight. That's where I learned to judge software by whether people use it, not by how it's built.
 
-**Stack:** Python · LangGraph · FastAPI · Vercel AI SDK · Claude · Langfuse
-
-## What I care about
-
-I don't think building an LLM wrapper is particularly interesting.
-
-The interesting part is everything around it:
-
-**How do you evaluate it?  
-What happens when it fails?  
-How much does it cost?  
-Can you understand why it made a decision?  
-Can you actually put it in the hands of users?**
-
-That's the kind of AI engineering I enjoy.
-
-## Tech
+### Tools I work with
 
 **Languages**
 
-Python · TypeScript · SQL
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-**AI**
+**AI agents & LLMs**
 
-LangGraph · Vercel AI SDK · RAG · LLMs · AI Agents · Tool Calling · Multi-Agent Systems · LLM Evaluation · Guardrails
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Vercel AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-000000?style=flat-square&logo=vercel&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic%20Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat-square)
+![Pipecat](https://img.shields.io/badge/Pipecat-333333?style=flat-square)
+**Evals & observability**
 
-**Backend**
+![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square)
+![Application Insights](https://img.shields.io/badge/Application%20Insights-0078D4?style=flat-square)
 
-FastAPI · PostgreSQL · Convex
+**Backend & data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-EE342F?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=flat-square)
 
 **Frontend**
 
-Next.js · React · Chrome Extensions
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Chrome Extensions](https://img.shields.io/badge/Chrome%20Extensions-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
-**Infrastructure**
+**Cloud & tooling**
 
-Azure · Vercel · Docker · Langfuse
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-## A bit more about me
+### Activity
 
-Before working full-time in AI, I ran a small digital agency and worked with 20+ businesses.
+[![GitHub streak](https://streak-stats.demolab.com/?user=abhishekbuild&hide_border=true)](https://git.io/streak-stats)
 
-That experience still influences how I build software. I care about the product and the user just as much as the implementation.
-
-I'm currently based in Hyderabad, India.
-
-## GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&hide_title=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&langs_count=8)
-
-## Find me
-
-[LinkedIn](https://linkedin.com/in/abhishekbuild) · [TabCake](https://tabcake.com) · [Slop Signal](https://slopsignal.dev)
+Most of my work lives in private repositories. If you'd like to see how something is built, I'm happy to walk you through the code.
